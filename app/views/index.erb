@@ -1,0 +1,7 @@
+<h1>All Recipes</h1>
+
+<h2>
+    <% Recipe.all.each do |recipe| %>
+    <%= "#{recipe.name} - #{recipe.link}" %>
+    <% end %>
+</h2>
